@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Angel - Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Hola, soy Miguel Coronado</h1>
+            <p>Desarrollo sitios web</p>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="profile">
+                <img src="img/pf.jpg" alt="Miguel Coronado">
+                <p>Conoce a Miguel Coronado</p>
+                <p>Desarrollador de paginas web</p>
+            </div>
+        </div>
+    </section>
+    <div class="header">
+        <h1>Conoce a Miguel Coronado</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quae, explicabo a voluptatum deleniti minus distinctio veritatis facilis impedit ab magnam, voluptate iste qui illo libero sed nulla eius maiores neque est ipsa unde ea possimus nesciunt? Enim dolore veniam alias id quam! Atque ad, sit natus quisquam ipsa laboriosam explicabo, dicta blanditiis, aspernatur quos molestias a omnis dolore nobis fugit iure hic harum? Officiis pariatur, molestiae dignissimos aspernatur ratione consequuntur dolorem iure. In assumenda officia quidem, iste voluptate voluptatem id recusandae repellat, possimus, amet totam sapiente voluptatibus nobis perspiciatis asperiores quo temporibus impedit similique illum quaerat. Cupiditate, tempore illum?</p>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/lp.jpg" alt="Desarrollo Web">
+            </div>
+            <h2>Desarrollo Web</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/lp.jpg" alt="Artículos">
+            </div>
+            <h2>Artículos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tags">
+                <span>Escribir</span>
+                <span>Editar</span>
+                <span>Blogs</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/lp.jpg" alt="Estudiante">
+            </div>
+            <h2>Estudiante</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tags">
+                <span>freeCodeCamp</span>
+                <span>Desarrollo Web</span>
+                <span>Python</span>
+            </div>
+        </div>
+    </div>
+    <section class="projects">
+        <div class="container">
+            <h2>Mis proyectos recientes</h2>
+            <div class="project-list">
+                <img src="img/1.png" alt="Proyecto 1">
+                <img src="img/2.jpeg" alt="Proyecto 2">
+                <img src="img/3.jpeg" alt="Proyecto 3">
+                <img src="img/4.jpeg" alt="Proyecto 4">
+            </div>
+            <button>Ver más proyectos</button>
+        </div>
+    </section>
+
+    <div class="card2">
+        <div class="articles-list">
+            <h1>Artículos</h1>
+            <h2>Más recientes</h2>
+            <ul>
+                <li><a href="#">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</a></li>
+                <li><a href="#">Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos</a></li>
+                <li><a href="#">Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps</a></li>
+                <li><a href="#">Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas</a></li>
+                <li><a href="#">¿Para qué se usa Python? 10+ usos del lenguaje de programación Python</a></li>
+            </ul>
+            <a class="more-articles" href="#">Ver más artículos</a>
+        </div>
+    </div>
+
+    <div class="containe">
+        <h1>Testimonios</h1>
+        <p>Estos son algunos testimonios de mis clientes...</p>
+        <div class="carousel">
+            <div class="arrow" id="prev">&#10094;</div>
+            <div class="testimonial" id="testimonial">
+                <img src="https://img.freepik.com/fotos-premium/retrato-hombre-negocios-expresion-cara-seria-fondo-estudio-espacio-copia-bengala-persona-corporativa-enfoque-pensamiento-duda-mirada-facial-dilema-o-concentracion_590464-84924.jpg" alt="Foto de Paolo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                <h3>Gino</h3>
+                <p>Gerente de proyectos en DesarrolloWeb</p>
+            </div>
+            <div class="arrow" id="next">&#10095;</div>
+        </div>
+    </div>
+
+    <script>
+        const testimonials = [
+            {
+                img: "https://img.freepik.com/fotos-premium/retrato-hombre-negocios-expresion-cara-seria-fondo-estudio-espacio-copia-bengala-persona-corporativa-enfoque-pensamiento-duda-mirada-facial-dilema-o-concentracion_590464-84924.jpg",
+                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.",
+                name: "Paolo",
+                title: "Gerente de proyectos en DesarrolloWeb"
+            },
+            {
+                img: "https://previews.123rf.com/images/rawpixel/rawpixel1704/rawpixel170441704/76561515-retrato-de-personas-estudio-disparar-con-expresi%C3%B3n-de-cara-sonriente.jpg",
+                text: "Nulla facilisi. Vivamus ac libero vitae eros venenatis luctus. Quisque suscipit tincidunt neque nec feugiat.",
+                name: "Laura",
+                title: "Desarrolladora Frontend"
+            },
+            {
+                img: "https://img.freepik.com/fotos-premium/hombre-sonriente-positivo-sobre-fondo-blanco_1026065-40314.jpg",
+                text: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam.",
+                name: "Carlos",
+                title: "Diseñador Gráfico"
+            }
+        ];
+
+        let currentIndex = 0;
+
+        document.getElementById("next").addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % testimonials.length;
+            updateTestimonial();
+        });
+
+        document.getElementById("prev").addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+            updateTestimonial();
+        });
+
+        function updateTestimonial() {
+            const testimonial = testimonials[currentIndex];
+            document.getElementById("testimonial").innerHTML = `
+                <img src="${testimonial.img}" alt="Foto de ${testimonial.name}">
+                <p>${testimonial.text}</p>
+                <h3>${testimonial.name}</h3>
+                <p>${testimonial.title}</p>
+            `;
+        }
+    </script>
+
+    <footer>
+        <div class="container">
+            <p>Aprendo y creo todos los días. Creamos un proyecto juntos.</p>
+            <button>Contacta</button>
+        </div>
+    </footer>
+</body>
+</html>
+
